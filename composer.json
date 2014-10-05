@@ -1,0 +1,15 @@
+{
+    "name": "alexey-kupershtokh/opcode-hit-miss",
+    "description": "",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexey Kupershtokh",
+            "email": "alexey.kupershtokh@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "AlexeyKupershtokh\\OpcodeHitMiss\\": "src/" }
+    }
+}
