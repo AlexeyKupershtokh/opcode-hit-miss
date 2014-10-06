@@ -39,7 +39,7 @@ class OpcodeHitMiss
         $result = array();
         $files = get_included_files();
         $filesMap = array_fill_keys($files, 0);
-        return array_replace($filesMap, $this->cachedFiles);
+        return array_replace($filesMap, array_intersect_key($this->cachedFiles, $filesMap));
     }
 
     public function getIncludedFilesStats()
